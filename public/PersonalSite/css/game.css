@@ -1,0 +1,41 @@
+@font-face {
+    font-family: space;
+    src: url("../assets/fonts/spacerangersemital.ttf");
+}
+
+html {
+    /*   background-color: #0c164f;
+       color: #fcfbfe;*/
+    background-image: url("../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+
+    scroll-behavior: smooth;
+    padding-top: 5%;
+}
+
+#SpaceShooterEmblem {
+    text-align:center
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font-family: space;
+    background-color: black;
+    color: #E18BFF;
+    width:5%;
+    padding:3%;
+    display:inline;
+    vertical-align: top;
+    margin:5%;
+}
+
+.button:hover {
+    color: #6E0896;
+    background-color: rgba(255, 216, 218, 0.8); /*  #ffd8da; rgba(255, 216, 218, 0.4); */
+
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="../css/Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/mycss.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+</head>
+<body style ="background-image: url('../resources/art/Site/background-paper-texture-halloween.jpg'); background-position: center; height: 100vh; background-size: cover; padding-top: 40px">
+
+<div class="m-4">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-danger align-content-center" id="myNavbar">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="../resources/art/Site/WindsOfDeathLogo.png" height="30" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav bg-danger mx-5 justify-content-start" style="font-family: 'Berlin Sans FB Demi'; font-weight: bold">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="play.html" class="nav-item nav-link">Game</a>
+                    <a href="team.html" class="nav-item nav-link">Team</a>
+                    <a href="design.html" class="nav-item nav-link">Design</a>
+                    <a href="gamesdesigndocument.html" class="nav-item nav-link">Games Design Document</a>
+                </div>
+                <div class="navbar-nav bg-danger mx-5" style="font-family: 'Berlin Sans FB Demi'; font-weight: bold">
+                    <div class = "nav-item nav-link" onclick="anypage()" id="fancy">Random Page</div>
+                    <div class = "nav-item nav-link" onclick="upWeGo()" id="alsoFancy">Return To Top</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div> <!--NAVBAR-->
+
+<div class="container py-1 my-3" style="background-image: url('../resources/art/Site/cork-board-wood-frame.jpg'); background-size: 100% 100%">
+    <div class="container my-3 py-4 px-5">
+        <div class = "row justify-content-center">
+            <div class ="col-md-4 justify-content-center text-center py-5 px-5" style="background-image: url('../resources/art/Site/paper-scrap.png'); background-size: 100% 100%; ">
+                <h1>Welcome!</h1>
+                <p>Thank you for visiting the official website for Winds of Death! Here you can find everything you need to know such as who made it, how they made it and why!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 py-5 px-5" style="background-image: url('../resources/art/Site/paper-scrap.png'); background-size: 100% 100%; ">
+                    <h2>The Game</h2>
+                    <p class ="lead">Our game has been created in Phaser 3.55 "Ichika"! We've been using the Phaser Editor to make the process easier, Piskel to draw and animate graphics and Tiled to lay them out on the game world.</p>
+                    <div class="d-grid gap-1 justify-content-center">
+                        <a href ="play.html"><button class="btn btn-danger" type="button">Play now!</button></a>
+                    </div>
+            </div>
+            <div class="col-md-4 py-5 px-5" style="background-image: url('../resources/art/Site/paper-scrap.png'); background-size: 100% 100%">
+                <h2>The Team</h2>
+                <p class = "lead">Our team consists of Aleksandar Marinov, Fraser McAulay, Mihai Maftei and Mohammed Latif. Each of us comes from a different background with our own diverse skill sets which we will put to use in making this game. </p>
+                <div class="d-grid gap-1 justify-content-center">
+                    <a href ="play.html"><button class="btn btn-danger" type="button">Check us out!</button></a>
+                </div>
+            </div>
+            <div class="col-md-4 py-5 px-5" style="background-image: url('../resources/art/Site/paper-scrap.png'); background-size: 100% 100%">
+                <h2>Designing the game</h2>
+                <p class = "lead">The design of our game has been influenced by many factors. Examples include popular design principles, our personal taste in games as well as other media such as films.</p>
+                <div class="d-grid gap-1 justify-content-center">
+                    <a href ="play.html"><button class="btn btn-danger" type="button">Have a look!</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap JS Bundle with Popper, goes at bottom for performance? -->
+<script type = "text/javascript" src="../js/Bootstrap/bootstrap.bundle.min.js"></script>
+<script type = "text/javascript" src="../js/myScript.js"></script>
+
+<!--Remote bootstrap-->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+</body>
+</html>

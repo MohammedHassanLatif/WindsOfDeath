@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team</title>
+    <!-- Bootstrap CSS -->
+    <link href="../css/Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/mycss.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+</head>
+<body  style ="background-image: url('../resources/art/Site/background-paper-texture-halloween.jpg'); background-position: center; background-size: 100% 100%; padding-top: 30px">
+<div class="m-4">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-danger align-content-center" id="myNavbar">
+        <div class="container-fluid">
+            <a href="tml" class="navbar-brand">
+                <img src="../resources/art/Site/WindsOfDeathLogo.png" height="30" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav bg-danger mx-5 justify-content-start" style="font-family: 'Berlin Sans FB Demi'; font-weight: bold">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="play.html" class="nav-item nav-link">Game</a>
+                    <a href="team.html" class="nav-item nav-link active">Team</a>
+                    <a href="design.html" class="nav-item nav-link">Design</a>
+                    <a href="gamesdesigndocument.html" class="nav-item nav-link">Games Design Document</a>
+                </div>
+                <div class="navbar-nav bg-danger mx-5" style="font-family: 'Berlin Sans FB Demi'; font-weight: bold">
+                    <div class = "nav-item nav-link" onclick="anypage()" id="fancy">Random Page</div>
+                    <div class = "nav-item nav-link" onclick="upWeGo()" id="alsoFancy">Return To Top</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div> <!--NAVBAR-->
+
+<div class="bg-image shadow-2-strong" style="background-image: url('https://miro.medium.com/max/741/1*2QUJKWE8jMAswGXxQl_UAw.jpeg'); height: 50vh; background-size: 100% 100%;">
+    <div class="container d-flex align-items-center justify-content-center text-center h-100">
+        <div class="badge bg-dark opacity-75">
+            <h1 class = "text-white display-3">Meet the team!</h1>
+            <h6 class="text-wrap text-white" style="width: 24rem;">Lets have a look at the people behind this project</h6>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="container border py-3 my-3 border-dark"  style="background-image: url('../resources/art/Site/bloody_paper.jpg'); background-size: 100% 100%;">
+        <div class="container"  style = "padding: 4px">
+            <div class="row justify-content-start">
+                <div class="col-sm-2 border-0 border-primary">
+                    <img src="../resources/art/Site/rightfaceperson.gif" class="img-fluid rounded float-end">  <!--style ="max-width: 50%"-->
+                </div>
+                <div class="col-sm-4 border-primary align-self-center rounded" style = "background-color: rgba(255, 0, 0, 0.6)">
+                    <h2 class = "opacity-100">Fraser McAulay</h2>
+                    <p class ="text-start text-wrap">Fraser will be handling duties such as game programming, creating assets for the game and adding functionality to the website. He will also be contributing to the documentation.</p>  <!--style="width: 24rem;-->
+                </div>
+            </div>
+        </div>
+        <div class="container"  style = "padding: 4px">
+            <div class="row justify-content-end">
+                <div class="col-sm-4 border-primary align-self-center rounded" style = "background-color: rgba(255, 0, 0, 0.6)">
+                    <h2>Mohammed Latif</h2>
+                    <p class ="text-start text-wrap">Mohammed will also be contributing assets for the game and adding functionality to the website. He will also help with documentation and game programming.</p>
+                </div>
+                <div class="col-sm-2 border-0 border-primary">
+                    <img src="../resources/art/Site/leftfaceperson.gif" class="img-fluid rounded mx-auto d-block" >
+                </div>
+            </div>
+        </div>
+        <div class="container"  style = "padding: 4px">
+            <div class="row justify-content-start">
+                <div class="col-sm-2 border-0 border-primary">
+                    <img src="../resources/art/Site/rightfaceperson.gif" class="img-fluid rounded float-end">  <!--style ="max-width: 50%"-->
+                </div>
+                <div class="col-sm-4 border-primary align-self-center rounded" style = "background-color: rgba(255, 0, 0, 0.6)">
+                    <h2>Aleksandar Marinov</h2>
+                    <p class ="text-start text-wrap">Aleksandar will be helping create game assets as well as writing game code and adding to the website. He will also be writing the documentation and keeping extra backups of important files.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style = "padding: 4px">
+            <div class="row justify-content-end">
+                <div class="col-sm-4 border-primary align-self-center rounded" style = "background-color: rgba(255, 0, 0, 0.6)">
+                    <h2>Mihai Maftei</h2>
+                    <p class ="text-start text-wrap">Mihai will assist with game programming, documentation and improving website functionality. He will also contribute assets for the game and website where necessary.</p>
+                </div>
+                <div class="col-sm-2 border-0 border-primary">
+                    <img src="../resources/art/Site/leftfaceperson.gif" class="img-fluid rounded mx-auto d-block" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type = "text/javascript" src="../js/Bootstrap/bootstrap.bundle.min.js"></script>
+<script type = "text/javascript" src="../js/myScript.js"></script>
+
+</body>
+</html>

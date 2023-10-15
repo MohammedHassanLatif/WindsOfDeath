@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Design</title>
+    <!-- Bootstrap CSS -->
+    <link href="../css/Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/mycss.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+</head>
+<body style ="background-image: url('../resources/art/Site/background-paper-texture-halloween.jpg'); background-position: center; background-size: 100% 100%;">
+<div class="m-4">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-danger align-content-center" id="myNavbar">
+        <div class="container-fluid">
+            <a href="tml" class="navbar-brand">
+                <img src="../resources/art/Site/WindsOfDeathLogo.png" height="30" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav bg-danger mx-5 justify-content-start" style="font-family: 'Berlin Sans FB Demi'; font-weight: bold">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="play.html" class="nav-item nav-link">Game</a>
+                    <a href="team.html" class="nav-item nav-link">Team</a>
+                    <a href="design.html" class="nav-item nav-link">Design</a>
+                    <a href="gamesdesigndocument.html" class="nav-item nav-link">Games Design Document</a>
+                </div>
+                <div class="navbar-nav bg-danger mx-5" style="font-family: 'Berlin Sans FB Demi'; font-weight: bold">
+                    <a href="#Game Overview" class="nav-item nav-link">Game Overview</a>
+                    <a href="#Inspirations" class="nav-item nav-link">Inspirations</a>
+                    <a href="#Development" class="nav-item nav-link">Development</a>
+                </div>
+                <div class="navbar-nav bg-danger mx-5" style="font-family: 'Berlin Sans FB Demi'; font-weight: bold">
+                    <div class = "nav-item nav-link" onclick="anypage()" id="fancy">Random Page</div>
+                    <div class = "nav-item nav-link" onclick="upWeGo()" id="alsoFancy">Return To Top</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div> <!--NAVBAR-->
+
+<div class="container d-flex py-5 my-5 px-5 justify-content-center rounded-3" style="background-image: url('../resources/art/Site/rusty-border.jpg'); height: fit-content; width: fit-content; background-size: 100% 100%; font-family: 'Franklin Gothic Heavy'">
+    <h1 class = "display-2">Game Design</h1>
+</div>
+
+<div class="align-content-center">
+    <div class="container border py-3 my-3 border-dark" style="background-image: url('../resources/art/Site/bloody_paper.jpg'); background-size: 100% 100%;">
+        <div class="container"  style = "padding-top: 24px" id ="Game Overview">
+            <div class="row">
+                <div class="col-sm-6 border-primary" style ="background-color: rgba(224, 215, 209, 0.8)">
+                    <h1 class="display-4">Game Overview</h1>
+                    <p1 class="lead"><p1 class ="fw-bold">'Winds of Death'</p1> is a top-down 2D co-op shooter set in a zombie apocalypse. The players' objective is to escape a sequence of diverse levels while killing as many zombies as possible. They will be able to pick up various weapons such as a pistol, assault rifle, machine gun and grenades. There will also be a competitive scoring system to encourage competition and increase replayability.</p1>
+                </div>
+                <div class="d-flex col-sm-6 align-content-center rounded">
+                    <div class="container-md my-3 align-content-center">
+                        <div id="myCarousel3" class="carousel  carousel-dark slide" data-bs-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#myCarousel2" data-bs-slide-to="1"></li>
+                            </ol>
+
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../resources/art/Site/BBSAM.png" width = "600" height="400" class="d-block w-100" alt="Slide 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="p-2 mb-2 text-white" style = "background-color: rgba(255, 0, 0, 0.5)">Concept art</div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../resources/art/Site/ConceptArt.png" width = "600" height="400" class="d-block w-100" alt="Slide 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="p-2 mb-2 text-white" style = "background-color: rgba(255, 0, 0, 0.5)">Early concept art</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Carousel controls -->
+                            <a class="carousel-control-prev" href="#myCarousel3" data-bs-slide="prev" style = "background-color: rgba(255, 0, 0, 0.2)">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel3" data-bs-slide="next" style = "background-color: rgba(255, 0, 0, 0.2)">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--CAROUSEL-->
+            </div>
+        </div>
+        <div class="container" style = "padding-top: 24px" id="Inspirations">
+            <div class="row">
+                <div class="col-sm-6 border-primary" style ="background-color: rgba(224, 215, 209, 0.8)">
+                    <h1 class="display-4">Inspirations</h1>
+                    <p1 class="lead">The design of the game was inspired by top-down shooters from years past. These include <p1 class="fw-bold">Boxhead: 2Play Rooms</p1>, <p1 class="fw-bold">Zombies Ate My Pizza</p1>, and <p1 class="fw-bold">Mecha Team Maverick</p1>. We found games like these enjoyable because of their high replayability and challenge. Mechanics they have in common are a level progression system, scoring system and upgrade system for the players abilities. We seek to put our own spin on the top-down style as well as replicate and enhance the enjoyable and addictive gameplay loop.</p1>
+                </div>
+                <div class="d-flex col-sm-6 align-content-center rounded">
+                    <div class="container-md my-3 align-content-center">
+                        <div id="myCarousel" class="carousel  carousel-dark slide" data-bs-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../resources/art/Site/boxhead.jpg" width = "600" height="400" class="d-block w-100" alt="Slide 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="p-3 mb-2 text-white" style = "background-color: rgba(255, 0, 0, 0.75)">Boxhead: 2Play Rooms (2007)</div>
+
+                                        <!--<h5>This game will be made in Phaser</h5>
+                                        <p>3.55.2 "Ichika" is the version used</p>-->
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../resources/art/Site/zompizza.jpg" width = "600" height="400" class="d-block w-100" alt="Slide 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="p-3 mb-2 text-white" style = "background-color: rgba(255, 0, 0, 0.75)">Zombies Ate My Pizza (2014)</div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../resources/art/Site/mtm.png" width = "600" height="400" class="d-block w-100" alt="Slide 3">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="p-3 mb-2 text-white" style = "background-color: rgba(255, 0, 0, 0.75)">Mecha Team Maverick (2021)</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Carousel controls -->
+                            <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev" style = "background-color: rgba(255, 0, 0, 0.2)">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next" style = "background-color: rgba(255, 0, 0, 0.2)">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--CAROUSEL-->
+            </div>
+        </div>
+        <div class="container" style = "padding-top: 24px" id="Development">
+            <div class="row">
+                <div class="col-sm-6 border-primary" style ="background-color: rgba(224, 215, 209, 0.8)">
+                    <h1 class="display-4">Development</h1>
+                    <p1 class="lead">In the development of our game, we will use the <p1 class="fw-bold">Agile</p1> development methodology. The essence of <p1 class="fw-bold">Agile</p1> is making the product in small iterations, each of which inform the planning for the project going forward. We decided that this suits the project best as it allows us to be flexible with how we develop the game. For version control we will be using <p1 class="fw-bold">Git</p1>. This will allow us to keep all of our code in sync. We've all had code-related problems in the past so this extra safety net will help the project run smoother.</p1>
+                </div>
+                <div class="d-flex col-sm-6 align-content-center rounded">
+                    <div class="container-md my-3 align-content-center">
+                        <div id="myCarousel2" class="carousel  carousel-dark slide" data-bs-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#myCarousel2" data-bs-slide-to="1"></li>
+                            </ol>
+
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://marionettestudio.com/wp-content/uploads/2016/08/what-is-agile1.gif" width = "600" height="400" class="d-block w-100" alt="Slide 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="p-2 mb-2 text-white" style = "background-color: rgba(255, 0, 0, 0.5)">source: <a href ="https://marionettestudio.com/agile-game-development-quick-overview/">marionettestudio</a></div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bjpVKHPe--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/8ogqpfkvqqpyfbs3w6p7.png" width = "600" height="400" class="d-block w-100" alt="Slide 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="p-2 mb-2 text-white" style = "background-color: rgba(255, 0, 0, 0.5)">We will use Git for version control</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Carousel controls -->
+                            <a class="carousel-control-prev" href="#myCarousel2" data-bs-slide="prev" style = "background-color: rgba(255, 0, 0, 0.2)">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel2" data-bs-slide="next" style = "background-color: rgba(255, 0, 0, 0.2)">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--CAROUSEL-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script type = "text/javascript" src="../js/Bootstrap/bootstrap.bundle.min.js"></script>
+<script type = "text/javascript" src="../js/myScript.js"></script>
+
+</body>
+</html>
